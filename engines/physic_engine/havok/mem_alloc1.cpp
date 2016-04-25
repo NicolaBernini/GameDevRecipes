@@ -14,7 +14,7 @@
 int HK_CALL main(int argc, const char** argv)
 {
   /**
-    * @brief The Default Malloc Allocator 
+    * @brief The Default Malloc Allocator which basically wraps malloc() and free() calls 
     * @note Allocators play an important role in performance optimization 
     */
   hkMallocAllocator baseMalloc;
